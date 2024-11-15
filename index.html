@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>AgendaApp</title>
+</head>
+<body>
+    <div class="agenda__container-general">
+        <form class="agenda__content">
+            <h1 class="agenda__titulo-principal">Formulario de Registro
+            </h1>
+            <h2 class="agenda__titulo-secundario">Toda la informacion es requerida</h2>
+            <div class="agenda__input-name agenda__input-container">
+                <label for="text" class="agenda__label">Nombre: </label>
+                <input type="text" name="text" id="text">
+            </div>
+            <div class="agenda__input-phone agenda__input-container">
+                <label for="phone" class="agenda__label">Telefono: </label>
+                <input type="text" name="phone" id="phone">
+            </div>
+            <div class="agenda__input-phone agenda__input-container">
+                <label for="contact-type" class="agenda__label">Tipo de contacto: </label>
+                <select name="" id="contact-type">
+                    <option value="">Seleccione alguna opcion</option>
+                    <option value="Trabajo">Trabajo</option>
+                    <option value="Personal">Personal</option>
+                    <option value="Casa">Casa</option>
+                    <option value="Amigo">Amigo</option>
+                </select>
+            </div>
+            <div class="agenda__buttons">
+                <button type="button" class="agenda__buttons-clear">Limpiar</button>
+                <button type="submit" class="agenda__buttons-save">Crear</button>
+            </div>
+        </form>
+    </div>
+    <div class="agenda__container-cards">
+        <!-- <div class="agenda__cards">
+            <h2 class="agenda__cards-titulo-principal">Contact - Academy</h2>
+            <li class="agenda__cards-name">Name - gamer bian</li>
+            <li class="agenda__cards-phone">Phone - 80945738923</li>
+            <div class="agenda__cards-button-container">
+                <button type="button">Delete</button>
+            </div>
+        </div> -->
+    </div>
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
