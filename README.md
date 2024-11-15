@@ -29,11 +29,12 @@ Una aplicación web funcional diseñada para gestionar contactos mediante un for
 ```plaintext
 AgendaApp/
 ├── css/
-│   └── style.css          # Estilos del proyecto
+│   └── style.css                                     # Estilos del proyecto
 ├── javascript/
-│   └── script.js          # Lógica de validación y gestión de contactos
-├── index.html             # Archivo principal de la aplicación
-├── README.md              # Documentación del proyecto
+│   └── script.js                                     # Lógica de validación y gestión de contactos
+├── index.html                                        # Archivo principal de la aplicación
+├── README.md                                         # Documentación del proyecto
+├── Tarea_3–Cuestionario_de_preguntas_de_GIT.pdf      # Archivo de cuertionario de preguntas de git
 ```
 
 
@@ -43,7 +44,7 @@ El desarrollo del proyecto se gestionó utilizando **Git Flow**, con las siguien
 
 - **main:** Rama principal que contiene la versión final y funcional del proyecto.  
 - **develop:** Rama de desarrollo que consolida las funcionalidades agregadas.  
-- **qa:** Rama para pruebas de calidad antes de integrar los cambios en `main`.  
+- **qa:** Rama para pruebas de calidad antes de integrar los cambios en `master`.  
 - **feature/:** Ramas individuales para cada funcionalidad o mejora.
 
 ### Ramas Feature
