@@ -29,11 +29,12 @@ Una aplicación web funcional diseñada para gestionar contactos mediante un for
 ```plaintext
 AgendaApp/
 ├── css/
-│   └── style.css          # Estilos del proyecto
+│   └── style.css                                     # Estilos del proyecto
 ├── javascript/
-│   └── script.js          # Lógica de validación y gestión de contactos
-├── index.html             # Archivo principal de la aplicación
-├── README.md              # Documentación del proyecto
+│   └── script.js                                     # Lógica de validación y gestión de contactos
+├── index.html                                        # Archivo principal de la aplicación
+├── README.md                                         # Documentación del proyecto
+├── Tarea_3–Cuestionario_de_preguntas_de_GIT.pdf      # Archivo de cuertionario de preguntas de git
 ```
 
 
