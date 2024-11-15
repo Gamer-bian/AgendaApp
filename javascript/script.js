@@ -94,7 +94,6 @@ buttonSave.addEventListener('click', function(event){
     allValue = valueNot(agendaContactType) && allValue;
     allValue = valueNot(agendaInputName) && allValue;
     allValue = valueNot(agendaInputPhone) && allValue;
-      
     agendaInputName.value = '';
     agendaInputPhone.value = '';
     agendaContactType.value = '';
