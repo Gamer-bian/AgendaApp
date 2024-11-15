@@ -54,13 +54,42 @@ buttonSave.addEventListener('click', function(event){
     if(!allValue){
         alert('necesita completar todos los campos');
     }else{ 
+    const agendaCards = document.createElement('div');
+    agendaCards.setAttribute('class', 'agenda__cards');
 
-        alert('Contacto creado');
+    const tituloPrincipal = document.createElement('h2');
+    tituloPrincipal.setAttribute('class', 'agenda__cards-titulo-principal');
+    const valueAgendaContactType = agendaContactType.value;
+    tituloPrincipal.innerHTML = `Contact - ${valueAgendaContactType}`;
+
+    const agendaCardsName = document.createElement('li');
+    agendaCardsName.setAttribute('class', 'agenda__cards-name');
+    const valueAgendaInputName = agendaInputName.value;
+    agendaCardsName.innerText = `Name - ${valueAgendaInputName}`;
+
+    const agendaCardsPhone = document.createElement('li');
+    agendaCardsPhone.setAttribute('class', 'agenda__cards-phone');
+    const valueAgendaInputPhone = agendaInputPhone.value;
+    agendaCardsPhone.innerText = `Phone - ${valueAgendaInputPhone}`;
+
+    const agendaCardsButtonContainer = document.createElement('div');
+    agendaCardsButtonContainer.setAttribute('class', 'agenda__cards-button-container');
+
+    const cardButton = document.createElement('button');
+    cardButton.type = 'button';
+    cardButton.textContent = 'Delete';
+    
+    agendaContainerCard.appendChild(agendaCards);
+    agendaCards.appendChild(tituloPrincipal);
+    agendaCards.appendChild(agendaCardsName);
+    agendaCards.appendChild(agendaCardsPhone);
+    agendaCards.appendChild(agendaCardsButtonContainer);
+    agendaCardsButtonContainer.appendChild(cardButton);
 
     allValue = valueNot(agendaContactType) && allValue;
     allValue = valueNot(agendaInputName) && allValue;
     allValue = valueNot(agendaInputPhone) && allValue;
-
+      
     agendaInputName.value = '';
     agendaInputPhone.value = '';
     agendaContactType.value = '';
