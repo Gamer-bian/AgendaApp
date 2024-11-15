@@ -44,7 +44,7 @@ El desarrollo del proyecto se gestionó utilizando **Git Flow**, con las siguien
 
 - **main:** Rama principal que contiene la versión final y funcional del proyecto.  
 - **develop:** Rama de desarrollo que consolida las funcionalidades agregadas.  
-- **qa:** Rama para pruebas de calidad antes de integrar los cambios en `main`.  
+- **qa:** Rama para pruebas de calidad antes de integrar los cambios en `master`.  
 - **feature/:** Ramas individuales para cada funcionalidad o mejora.
 
 ### Ramas Feature
