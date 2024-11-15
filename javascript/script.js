@@ -78,6 +78,11 @@ buttonSave.addEventListener('click', function(event){
     const cardButton = document.createElement('button');
     cardButton.type = 'button';
     cardButton.textContent = 'Delete';
+    cardButton.addEventListener('click', function(){
+        if(confirm(`Are you sure that you want remove this card?`)){ 
+        agendaContainerCard.removeChild(agendaCards);
+        }
+    });
     
     agendaContainerCard.appendChild(agendaCards);
     agendaCards.appendChild(tituloPrincipal);
